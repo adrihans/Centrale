@@ -1,0 +1,21 @@
+package image;
+
+import image.Image;
+import image.ImageDisplayer;
+
+public class ImageMain {
+
+	public static void main(String[] args) {
+		Image I = Image.initImagePGM("/images/fruit.pgm");
+		
+		image.ImageDisplayer imdis = new ImageDisplayer();
+		// imdis.display(imint, title);
+		imdis.display(I, "test",100,100);
+		
+		image.ImageDisplayer imdis2 = new ImageDisplayer();
+		Image imedges = I.edges(100);
+		imdis2.display(imedges, "edges",500,100);
+
+	}
+
+}

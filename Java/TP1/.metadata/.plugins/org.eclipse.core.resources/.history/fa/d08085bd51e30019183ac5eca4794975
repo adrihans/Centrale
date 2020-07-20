@@ -1,0 +1,5 @@
+package image.color;
+
+public class GrayColor {
+
+}

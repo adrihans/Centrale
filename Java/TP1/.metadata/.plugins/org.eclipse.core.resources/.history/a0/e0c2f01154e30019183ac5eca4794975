@@ -1,0 +1,14 @@
+package image;
+
+public class Pixel {
+	
+	private image.color.GrayColor graycolor;
+	
+	public image.color.GrayColor getColor(){
+		return this.graycolor;
+	}
+	public void setColor(image.color.GrayColor g) {
+		this.graycolor = g;
+	}
+
+}

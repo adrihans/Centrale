@@ -1,0 +1,38 @@
+package image;
+
+import image.Image;
+import image.color.GrayColor;
+import image.ImageDisplayer;
+import image.ImageInterface;
+
+public class ImageExample {
+
+	public static void main(String[] args) {
+		Image I = new Image(100, 200);
+		
+		int i, j;
+		for(i=10; i<30; i=i+1) {
+			for(j=30; j>60; j=j+1) {
+				I.changeColorPixel(i,  j,  image.color.GrayColor.BLACK);
+		    }
+	    }
+		image.color.GrayColor gray64 = new image.color.GrayColor(64);
+		for(i=20; i<70; i=i+1) {
+			for(j=50; j>100; j=j+1) {
+				I.changeColorPixel(i,  j,  gray64);
+		    }
+	    }
+		image.color.GrayColor gray230 = new image.color.GrayColor(230);
+		for(i=20; i<40; i=i+1) {
+			for(j=110; j>160; j=j+1) {
+				I.changeColorPixel(i,  j,  gray230);
+		    }
+	    }
+		
+		image.ImageInterface imint = new ImageInterface();
+		image.ImageDisplayer imdis = new ImageDisplayer();
+		imdis.display(imint, title);
+
+	}
+
+}

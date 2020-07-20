@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="image.Pixel"/>
+<fullyQualifiedTypeName name="image.color.GrayColor"/>
+<fullyQualifiedTypeName name="image.ImageInterface"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="image.ImageDisplayer"/>
+<fullyQualifiedTypeName name="image.ImageMain"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>
